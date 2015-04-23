@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.4.2)  21 APR 2015 18:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014/W32TeX) (preloaded format=pdflatex 2015.4.2)  23 APR 2015 07:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -186,8 +186,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@floatcapt=\box29
 )
 \@float@every@table=\toks24
-
-No file Assignment1.aux.
+ (./Assignment1.aux)
 \openout1 = `Assignment1.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
@@ -202,6 +201,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
 LaTeX Font Info:    ... okay on input line 19.
+
 (c:/texlive/2014/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count103
@@ -283,13 +283,13 @@ Overfull \hbox (70.56114pt too wide) in paragraph at lines 33--40
 <images/1.png, id=1, 746.03719pt x 587.94656pt>
 File: images/1.png Graphic file (type png)
  <use images/1.png>
-Package pdftex.def Info: images/1.png used on input line 44.
+Package pdftex.def Info: images/1.png used on input line 45.
 (pdftex.def)             Requested size: 284.52159pt x 113.81029pt.
 
 <images/2.png, id=2, 722.7pt x 577.40718pt>
 File: images/2.png Graphic file (type png)
  <use images/2.png>
-Package pdftex.def Info: images/2.png used on input line 49.
+Package pdftex.def Info: images/2.png used on input line 52.
 (pdftex.def)             Requested size: 284.53154pt x 113.80539pt.
 
 
@@ -298,40 +298,84 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <images/3.png, id=3, 722.7pt x 572.89032pt>
 File: images/3.png Graphic file (type png)
  <use images/3.png>
-Package pdftex.def Info: images/3.png used on input line 54.
+Package pdftex.def Info: images/3.png used on input line 58.
 (pdftex.def)             Requested size: 284.53154pt x 113.80676pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<images/4.png, id=4, 779.16093pt x 578.91281pt>
-File: images/4.png Graphic file (type png)
- <use images/4.png>
-Package pdftex.def Info: images/4.png used on input line 58.
-(pdftex.def)             Requested size: 284.52809pt x 113.81064pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[1
+ [1
 
 {c:/texlive/2014/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./images/1.png>
-] [2 <./images/2.png> <./images/3.png> <./images/4.png>] (./Assignment1.aux) ) 
+]
+<images/4.png, id=11, 779.16093pt x 578.91281pt>
+File: images/4.png Graphic file (type png)
+ <use images/4.png>
+Package pdftex.def Info: images/4.png used on input line 64.
+(pdftex.def)             Requested size: 284.52809pt x 113.81064pt.
+ [2 <./images/2.png> <./images/3.png> <./images/4.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 73--99
+
+ []
+
+
+Overfull \hbox (31.71555pt too wide) in paragraph at lines 100--101
+[]\OT1/cmr/m/n/12 For the fol-low-ing at-tributes, $\OML/cmm/m/it/12 criterion 
+\OT1/cmr/m/n/12 =[] \OML/cmm/m/it/12 gini[]; maxdepth \OT1/cmr/m/n/12 = 12\OML/
+cmm/m/it/12 ; maxfeatures \OT1/cmr/m/n/12 =
+ []
+
+<images/5.png, id=15, 433.62pt x 431.4519pt>
+File: images/5.png Graphic file (type png)
+ <use images/5.png>
+Package pdftex.def Info: images/5.png used on input line 106.
+(pdftex.def)             Requested size: 284.54257pt x 113.80753pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--142
+
+ []
+
+[3 <./images/5.png>]
+Overfull \hbox (32.25166pt too wide) in paragraph at lines 143--144
+[]\OT1/cmr/m/n/12 For the fol-low-ing at-tributes, $\OML/cmm/m/it/12 nestimator
+s \OT1/cmr/m/n/12 = 25\OML/cmm/m/it/12 ; criterion \OT1/cmr/m/n/12 = "\OML/cmm/
+m/it/12 gini\OT1/cmr/m/n/12 "\OML/cmm/m/it/12 ; maxdepth \OT1/cmr/m/n/12 =
+ []
+
+<images/6.png, id=23, 433.62pt x 431.4519pt>
+File: images/6.png Graphic file (type png)
+ <use images/6.png>
+Package pdftex.def Info: images/6.png used on input line 149.
+(pdftex.def)             Requested size: 284.54257pt x 113.80753pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 153--154
+
+ []
+
+[4 <./images/6.png>] (./Assignment1.aux) ) 
 Here is how much of TeX's memory you used:
- 2809 strings out of 493109
- 37818 string characters out of 6138588
- 105255 words of memory out of 5000000
- 6229 multiletter control sequences out of 15000+600000
+ 2821 strings out of 493109
+ 37994 string characters out of 6138588
+ 107255 words of memory out of 5000000
+ 6237 multiletter control sequences out of 15000+600000
  8713 words of font info for 32 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 38i,7n,23p,274b,240s stack positions out of 5000i,500n,10000p,200000b,80000s
-<
-c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive
-/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on Assignment1.pdf (2 pages, 122242 bytes).
+ 38i,7n,23p,274b,244s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/texlive/2014/texmf-dist/fonts/typ
+e1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr12.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmr17.pfb><c:/texlive/2014/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.p
+fb>
+Output written on Assignment1.pdf (4 pages, 164822 bytes).
 PDF statistics:
- 23 PDF objects out of 1000 (max. 8388607)
- 12 compressed objects within 1 object stream
+ 42 PDF objects out of 1000 (max. 8388607)
+ 23 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 21 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 

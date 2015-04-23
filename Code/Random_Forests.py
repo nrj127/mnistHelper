@@ -29,9 +29,11 @@ def plot_dtree(model,fileName):
 
 db=mnist_database()
 (images,labels)=db.get_training_data()
-(images1,labels1) = db.get_testing_data(n_estimators =25 ,criterion ="gini",max_depth =20,max_features=150)
+(images1,labels1) = db.get_testing_data()
 
-classifier = RandomForestClassifier()
+
+#classifier = RandomForestClassifier()
+classifier = RandomForestClassifier(n_estimators =25 ,criterion ="gini",max_depth =12,max_features=30)
 #classifier = svm.SVC(kernel = 'rbf')
 classifier.fit(images,labels)
 
@@ -47,6 +49,10 @@ importances = classifier.feature_importances_
 plt.matshow(importances.reshape(28,28),cmap=plt.cm.hot)
 plt.show()
 
-X_train, X_test,y_train,y_test = cross_validation.train_test_split(images,labels,test_size=0.3,random_state=0,cv=5)
-clf1 = RandomForestClassifier(criterion='entropy',max_depth=20, max_features=150).fit(X_train,y_train)
+X_train, X_test,y_train,y_test = cross_validation.train_test_split(images,labels,test_size=0.3,random_state=0)
+clf1 = RandomForestClassifier(criterion='entropy',max_depth=20, max_features=30).fit(X_train,y_train)
 clf1.score(X_test,y_test)
+
+clf1 = RandomForestClassifier(criterion='entropy',max_depth=12, max_features=30)
+scores = cross_validation.cross_val_score(clf1,images,labels,cv=5)
+print("Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2))

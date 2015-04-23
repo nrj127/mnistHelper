@@ -39,25 +39,119 @@ Accuracy & 0.8235 & 0.8758 & 0.8865 & 0.1028 \\
 \end{tabular} 
 \end{table}
 
+Linear SVC
 \begin{figure}[h]
 \centering
 \includegraphics[width=10cm, height=4cm]{1}
 \end{figure}
 
+
+Linear Kernel
 \begin{figure}[h]
 \centering
 \includegraphics[width=10cm, height=4cm]{2}
 \end{figure}
 
+Polynomial kernel
 \begin{figure}[h]
 \centering
 \includegraphics[width=10cm, height=4cm]{3}
 \end{figure}
+
+RBF kernel
 \begin{figure}[h]
 \centering
 \includegraphics[width=10cm, height=4cm]{4}
 \end{figure}
 
 \newpage
+
+Exercise 3: Decision Tree Classifier \\
+
+The accuracy of the decision tree classifier using default parameters is 0.8763. The following table gives the precision of each and every label.
+
+\begin{tabular}{|c|c|}
+\hline 
+Labels & Precision \\ 
+\hline 
+0 & 0.92 \\ 
+\hline 
+1 & 0.96 \\ 
+\hline 
+2 & 0.87 \\ 
+\hline 
+3 & 0.82 \\ 
+\hline 
+4 & 0.88 \\ 
+\hline 
+5 & 0.83 \\ 
+\hline 
+6 & 0.89 \\ 
+\hline 
+7 & 0.92 \\ 
+\hline 
+8 & 0.82 \\ 
+\hline 
+9 & 0.84 \\ 
+\hline 
+\end{tabular} 
+\\
+
+For the following attributes, $criterion='gini',max depth=12, max features=370$, I got the best performance of 0.8791.
+
+The figure below shows the pixel importance.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=10cm, height=4cm]{5}
+\end{figure}
+
+
+Cross Validation: Using the same values, for cross-validation, I got a mean score of 0.87\\
+
+Exercise 3 : RandomForestClassifier
+
+The accuracy of the random forest classifier using default parameters is 0.9463. The following table gives the precision of each and every label.
+
+\begin{tabular}{|c|c|}
+\hline 
+Labels & Precision \\ 
+\hline 
+0 & 0.95 \\ 
+\hline 
+1 & 0.98 \\ 
+\hline 
+2 & 0.94 \\ 
+\hline 
+3 & 0.91 \\ 
+\hline 
+4 & 0.94 \\ 
+\hline 
+5 & 0.93 \\ 
+\hline 
+6 & 0.97 \\ 
+\hline 
+7 & 0.96 \\ 
+\hline 
+8 & 0.94 \\ 
+\hline 
+9 & 0.93 \\ 
+\hline 
+\end{tabular} 
+\\
+
+For the following attributes, $n estimators =25 ,criterion ="gini",max depth =12,max features=30$, I got the best performance of 0.9539.
+
+The figure below shows the pixel importance.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=10cm, height=4cm]{6}
+\end{figure}
+
+
+Cross Validation: Using the same values, for cross-validation, I got a mean score of 0.94 \\
+
+Conclusion: Random Forest Classifier gives a better performance in classifying the digits correctly.
 
 \end{document}
