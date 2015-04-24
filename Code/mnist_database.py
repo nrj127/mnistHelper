@@ -1,5 +1,5 @@
 """
-Raphael Duemig
+
 
 inspired by:
 http://g.sweyla.com/blog/2012/mnist-numpy/
